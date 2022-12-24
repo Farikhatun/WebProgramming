@@ -1,0 +1,82 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #f6f6f6;
+}
+
+.navbar {
+  background: rgba(64, 117, 241, 0.88);
+  padding: 10px;
+}
+
+.logo {
+  height: 58px;
+  width: auto;
+}
+.nav-link,
+.navbar-brand {
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+.nav-link {
+  margin-right: 1em !important;
+}
+
+.nav-link:hover {
+  color: #3873ca;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.header {
+  background-image: url("");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 100vh;
+}
+
+.navbar-brand:hover {
+  color: #3873ca;
+}
+
+#menu {
+  background: rgba(6, 220, 205, 0.486);
+  height: 100%;
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+}
+
+.Pilih-tiket {
+  padding-inline-end: 10%;
+}
+
+.page-footer {
+  background-color: rgba(6, 220, 205, 0.486);
+  color: rgb(10, 0, 0);
+  padding: 60px 0 30px;
+}
+
+.footer-copyright {
+  color: rgb(4, 0, 0);
+  padding: 40px 0;
+}
+
+@media (max-width: 575.98px) {
+  .feature-title,
+  h4,
+  h6,
+  p {
+    margin: 10px;
+  }
+  .gamabarPayment {
+    height: auto;
+    width: 100%;
+  }
+  .header {
+    height: 60vh;
+  }
+}
